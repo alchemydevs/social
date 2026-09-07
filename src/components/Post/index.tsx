@@ -76,12 +76,12 @@ const ViewPost = () => {
     return <PostPageShimmer isQuotes={showQuotes} />;
   }
 
-  if (!post) {
-    return <Custom404 />;
-  }
-
   if (error) {
     return <Custom500 />;
+  }
+
+  if (!post) {
+    return <Custom404 />;
   }
 
   const targetPost = isRepost(post) ? post.repostOf : post;
@@ -111,7 +111,7 @@ const ViewPost = () => {
       }
       title={`${targetPost.__typename} by ${
         getAccount(targetPost.author).username
-      } • Hey`}
+      } • XXXXX`}
       zeroTopMargin
     >
       <div className="space-y-5">

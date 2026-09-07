@@ -58,12 +58,12 @@ const ViewAccount = () => {
     return <AccountPageShimmer />;
   }
 
-  if (!account) {
-    return <Custom404 />;
-  }
-
   if (error) {
     return <Custom500 />;
+  }
+
+  if (!account) {
+    return <Custom404 />;
   }
 
   const isDeleted = isAccountDeleted(account);
@@ -103,7 +103,7 @@ const ViewAccount = () => {
 
   return (
     <PageLayout
-      title={`${accountInfo.name} (${accountInfo.username}) • Hey`}
+      title={`${accountInfo.name} (${accountInfo.username}) • XXXXX`}
       zeroTopMargin
     >
       <Cover

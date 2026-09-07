@@ -22,7 +22,7 @@ const SignupCard = () => {
         width={56}
       />
       <div className="space-y-3 text-center">
-        <div className="font-bold">Get your Hey account now!</div>
+        <div className="font-bold">Get your XXXXX account now!</div>
         <div>
           <Button onClick={handleSignupClick}>Signup now</Button>
         </div>

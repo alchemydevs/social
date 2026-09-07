@@ -1,8 +1,8 @@
-# Hey Monorepo
+# XXXXX Social
 
 ## Requirements
 
-To start working with the Hey monorepo, ensure the following tools are installed:
+To start working with this Social, ensure the following tools are installed:
 
 - [Node.js](https://nodejs.org/en/download/) (v22 or higher) - the JavaScript runtime used in this project.
 - [pnpm](https://pnpm.io/installation) - the package manager used throughout this repository.
@@ -11,11 +11,12 @@ To start working with the Hey monorepo, ensure the following tools are installed
 ## Installation
 
 This repository uses [pnpm workspaces](https://pnpm.io/workspaces) to manage multiple packages within a monorepo structure.
+Simply install using npm: `npm install -g pnpm`
 
 ### Clone the Repository
 
 ```bash
-git clone git@github.com:bigint/hey.git
+git clone https://github.com/XXXXX/social.git
 ```
 
 ### Install NVM and pnpm

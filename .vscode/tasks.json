@@ -1,0 +1,68 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "install-root-modules",
+      "type": "shell",
+      "command": "npm install -g pnpm && pnpm install --silent",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "windows": {
+        "options": {
+          "shell": {
+            "executable": "cmd.exe",
+            "args": ["/c"]
+          }
+        }
+      },
+      "linux": {
+        "options": {
+          "shell": {
+            "executable": "/bin/bash",
+            "args": ["-l", "-c"]
+          }
+        }
+      },
+      "osx": {
+        "options": {
+          "shell": {
+            "executable": "/bin/bash",
+            "args": ["-l", "-c"]
+          }
+        }
+      },
+      "runOptions": {
+        "runOn": "folderOpen"
+      },
+      "presentation": {
+        "reveal": "silent",
+        "echo": false,
+        "focus": false,
+        "panel": "new",
+        "showReuseMessage": false,
+        "clear": true
+      }
+    },
+    {
+      "label": "env",
+      "type": "shell",
+      "osx": {},
+      "linux": {},
+      "windows": {},
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "silent",
+        "echo": false,
+        "focus": false,
+        "close": true,
+        "panel": "new",
+        "showReuseMessage": false,
+        "clear": true
+      },
+      "runOptions": {
+        "runOn": "folderOpen"
+      }
+    }
+  ]
+}

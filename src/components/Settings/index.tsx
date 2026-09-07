@@ -4,6 +4,7 @@ import {
   CodeBracketIcon,
   CurrencyDollarIcon,
   FingerPrintIcon,
+  LockClosedIcon,
   GiftIcon,
   GlobeAltIcon,
   NoSymbolIcon,
@@ -50,6 +51,11 @@ const AccountSettings = () => {
       icon: <FingerPrintIcon className="size-5" />,
       title: "Manager",
       url: "/settings/manager"
+    },
+    {
+      icon: <LockClosedIcon className="size-5" />,
+      title: "Recovery Setup",
+      url: "/settings/recovery"
     },
     {
       icon: <GlobeAltIcon className="size-5" />,
