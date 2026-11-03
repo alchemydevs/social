@@ -193,7 +193,7 @@ const CollectActionBody = ({
               <HelpTooltip>
                 <div className="py-1">
                   <div className="flex items-start justify-between space-x-10">
-                    <div>XXXXX</div>
+                    <div>Alchemy</div>
                     <b>
                       ~{heyFee} {currency} (2.5%)
                     </b>

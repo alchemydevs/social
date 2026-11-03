@@ -9,7 +9,7 @@ import Signup from "./Signup";
 const NotConnected = ({ isLogin }: { isLogin?: boolean }) => (
   <AuthMessage
     description="Connect with our wallet provider to access your account."
-    title={`${isLogin ? "Login" : "Signup"} to XXXXX.`}
+    title={`${isLogin ? "Login" : "Signup"} to Alchemy.`}
   />
 );
 
@@ -30,7 +30,7 @@ const Auth = () => {
           {isConnected ? (
             hasAccounts ? (
               <AuthMessage
-                description="XXXXX uses this signature to verify that you're the owner of this address."
+                description="Alchemy uses this signature to verify that you're the owner of this address."
                 title="Please sign the message."
               />
             ) : (
